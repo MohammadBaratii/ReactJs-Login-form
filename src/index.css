@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #3a6af0, #5ba2ff);
+}
+
+/* form */
+.Form {
+  padding: 1rem 2rem;
+  background-color: #222;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* login and signup forms */
+.Login h1,
+.SignUp h1 {
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+.Login-form,
+.SignUp-form {
+  display: flex;
+  flex-direction: column;
+}
+.Login-form input,
+.SignUp-form input {
+  width: 15rem;
+  margin: 1rem 0;
+  padding: 0.2rem;
+  background: none;
+  color: #ddd;
+  border: none;
+  border-bottom: 1px #6666668c solid;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+}
+.Login-form a,
+.SignUp-form a {
+  color: #668efa;
+  text-decoration: none;
+  margin: -0.6rem 0 1rem;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+.Login-form .pass,
+.SignUp-form .pass {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.Login-form .pass i,
+.SignUp-form .pass i {
+  position: absolute;
+  right: 0rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.Login-form button,
+.SignUp-form button {
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  background: linear-gradient(to right, #3a6af0, #5ba2ff);
+  color: #ddd;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.Login-form input:focus,
+.SignUp-form input:focus {
+  border-bottom: 1px #ddd solid;
+}
+/* signup form */
+
+/* login signup */
+.LoginSignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.LoginSignUp a {
+  display: block;
+  width: 5rem;
+  padding: 0.4rem;
+  text-decoration: none;
+  color: #ddd;
+  border: 1px #66666673 solid;
+  transition: 0.2s;
+}
+.LoginSignUp a:nth-child(1) {
+  border-radius: 3px 0 0 3px;
+  border-right: none;
+}
+.LoginSignUp a:nth-child(2) {
+  border-left: none;
+  border-radius: 0 3px 3px 0;
+}
+.LoginSignUp a.active {
+  background-color: #4169e1;
+}
+.LoginSignUp a:not(.active):hover {
+  background-color: #455da727;
+}
+
+/* ForgotPassword */
+.ForgotPassword h1 {
+  margin-bottom: 1rem;
+  color: #ddd;
+  font-weight: 500;
+}
+.ForgotPassword a {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  background-color: #4169e183;
+  color: #ddd;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.ForgotPassword a:hover {
+  background-color: #6b8ae683;
+}
