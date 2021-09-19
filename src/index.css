@@ -136,3 +136,16 @@
 .ForgotPassword a:hover {
   background-color: #6b8ae683;
 }
+@media screen and (max-width: 768px) {
+  .ForgotPassword {
+    width: 30rem;
+  }
+  .ForgotPassword h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .ForgotPassword {
+    width: 15rem;
+  }
+}
