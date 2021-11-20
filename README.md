@@ -1,5 +1,5 @@
 <div>
-  <img src="./images/Login.png" />
+  <img src="./images/Login.PNG" />
   <h1>Login & Sign up form</h1>
 </div>
 <div>
