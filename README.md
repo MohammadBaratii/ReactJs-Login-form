@@ -1,6 +1,9 @@
 <div>
   <img src="./images/Login.PNG" />
   <h1>Login & Sign up form</h1>
+  <p>
+    Edit the codes and let me know if you have more knowledge or better ideas.
+  </p>
 </div>
 <div>
   <p>In the project directory, you can run:</p>
@@ -13,8 +16,5 @@
   <p>
     The page will reload if you make edits. You will also see any lint errors
     in the console.
-  </p>
-  <p>
-    Edit the codes and let me know if you have more knowledge or better ideas.
   </p>
 </div>
